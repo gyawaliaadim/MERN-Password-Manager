@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+
+:root {
+    /* Navbar */
+    /* --navbar-element-bg: #1b80cd; */
+    --navbar-height:3rem;
+    --navbar-bg: #1d293b;
+    --navbar-text: #4ebd7c;
+  
+    /* Ocean Background */
+    --ocean-bg: #e4ffeb;
+    --ocean-text: #1B262C;
+
+}
+
+
+.textBox{
+    @apply text-black  h-9 rounded-full px-2 border border-gray-300 outline-none focus:ring-2 focus:ring-blue-400 font-bold text-xl
+}
+
+.buttonStyle{
+    @apply cursor-pointer w-max h-10 px-3 border border-gray-300 outline-none font-bold text-2xl bg-[#63ff96] text-black rounded-full hover:bg-[#88ffae] 
+}
+table, th, td {
+    @apply border-2 border-solid border-[#caffd8]
+  }
