@@ -1,4 +1,4 @@
-# Project 5
+# MERN Stack Password Manager
 
 ![image](https://github.com/user-attachments/assets/d9614064-6aab-4d79-a6d3-f687265f66bd)
 
